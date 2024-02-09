@@ -29,6 +29,10 @@ php artisan db:create;
 npm run build;
 php artisan serve;
 ```
+Basic testing available using
+```sh
+php artisan test
+```
 ## Usage
 
 Access the site at http://127.0.0.1:8000 (the link will be in the terminal)
