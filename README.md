@@ -8,37 +8,27 @@ This is a quick demo of CRUD functionality in Laravel
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Support](#support)
-  - [Contributing](#contributing)
 
 ## Installation
 
-Download to your project directory, add `README.md`, and commit:
+This repo uses Herd, so first we need to clone it to your Herd directory. 
 
 ```sh
-git clone
-git add README.md
-git commit -m "Use README Boilerplate"
+cd ~/Herd;
+git clone https://github.com/Jhyrith/tailcrud;
+cd tailcrud;
+composer install;
+npm install;
+cp .env.example .env
 ```
 
+I've created a command to create the database for you automatically so now run 
+
+```sh
+php artisan db:create;
+npm run build;
+php artisan serve;
+```
 ## Usage
 
-Replace the contents of `README.md` with your project's:
-
-- Name
-- Description
-- Installation instructions
-- Usage instructions
-- Support instructions
-- Contributing instructions
-- Licence
-
-Feel free to remove any sections that aren't applicable to your project.
-
-## Support
-
-Please [open an issue](https://github.com/fraction/readme-boilerplate/issues/new) for support.
-
-## Contributing
-
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/fraction/readme-boilerplate/compare/).
+Access the site at http://127.0.0.1:8000 (the link will be in the terminal)
