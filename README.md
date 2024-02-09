@@ -11,7 +11,7 @@ This is a quick demo of CRUD functionality in Laravel
 
 ## Installation
 
-This repo uses Herd, so first we need to clone it to your Herd directory. 
+This repo uses Herd on PHP 8.1, so first we need to clone it to your Herd directory. 
 
 ```sh
 cd ~/Herd;
